@@ -1,0 +1,137 @@
+body{
+  background-color: black;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)) , url("arkaplan.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.vh-80{
+  height: 85vh;
+}
+
+.accordion-button{
+  background-color: rgb(43, 43, 43);
+  color: white;
+  margin-top: .7rem;
+}
+
+.accordion-item{
+  border: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: rgb(43, 43, 43);
+  color: white;
+  box-shadow: none;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+.accordion-button::after{
+  background-image: url("icons8-plus-math-50.png");
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: url("icons8-subtract-48.png");
+}
+
+.footerList{
+  list-style: none;
+}
+
+.footerList li a{
+  color:whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+.col-md-8 h1{
+  font-size: 75px;
+}
+
+
+
+.test1{
+  width: 30%;
+}
+
+.logo{
+  width: 40%;
+  height: 30%;
+}
+
+.all{
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url("arkaplan.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar img{
+    width: 4rem;
+}
+
+.drop{
+    text-decoration: none;
+    margin-right: 3rem;
+    list-style-type: none;
+}
+
+.bgr{
+    text-decoration-color: wh;
+}
+
+.vh-80{
+    height: 85vh;
+  }
+
+.gray{
+    background-color: rgb(134, 134, 134);
+}
+
+.clearFix{
+    clear: both;
+    
+}
+
+.top{
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+
+}
+
+
+.card{
+  width: 250px;
+  background-color: #141414;
+  border-radius: 4px;
+  transition: 0.2s linear;
+  size: 150px;
+}
+
+.card:hover{
+  transform: scale(1.4);
+  z-index: 10;
+
+}
+
+/* .Slide{
+  align-items: center;
+  margin: 5rem;
+  
+} */
